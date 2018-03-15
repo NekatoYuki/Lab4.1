@@ -8,6 +8,7 @@ public class Card {
 	
 	public Card(String rank, String suit, int value) {
 		// TODO Auto-generated constructor stub
+		
 	}
 	public String getRank() {
 		return rank;
@@ -27,6 +28,15 @@ public class Card {
 	public void setValue(int value) {
 		this.value = value;
 	}
-	
-	
+	public boolean equals(Card x, Card y) {
+		if (x.equals(y))
+		{
+			return true;
+		}
+		return false;
+	}
+	public String toString()
+	{
+		
+	}
 }

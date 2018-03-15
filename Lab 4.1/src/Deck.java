@@ -35,7 +35,8 @@ public class Deck {
 		{
 			return null;
 		}
-		 dealt;
+		return deck
+		deck.remove(0);
 	}
 	public shuffle()
 	{
