@@ -29,17 +29,16 @@ public class Deck {
 	{
 		return deck.size();
 	}
-	public deal()
+	public Card deal()
 	{
 		if (deck.size() == 0)
 		{
 			return null;
 		}
-		return deck
 		deck.remove(0);
 	}
-	public shuffle()
+/*	public shuffle()
 	{
 		
-	}
+	}*/
 }
